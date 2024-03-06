@@ -1,0 +1,285 @@
+@charset "utf-8";
+
+/*///////////////////////////////////
+base*/
+
+body,figure,p {
+	margin: 0;
+}
+
+
+#header {
+	background-color: #cfcfd0;
+	margin: 0;
+	//position: fixed;
+}
+
+#header .inner {
+	width: 980px;
+	margin: 0 auto 0 auto;
+	text-align: center;
+	//padding: 10px 0 10px 0;
+}
+
+//#header .inner a {
+	//width: 100%;
+	margin: 0;
+	margin: 0 auto 0 auto;
+}
+
+#header .inner img {
+	width: 100%;
+	//height: 187px;
+	//position: fixed;
+}
+
+/*///////////////////////////////////
+globalmenu*/
+
+body {
+	font-family: 'DotGothic16', sans-serif;
+}
+#header .inner nav ul {
+	margin: 0 auto 0 auto;
+	font-size: 0;
+	z-index: 10;
+}
+
+#header .inner a {
+	color: #111111;
+	font-size: 0;
+}
+
+#header .inner li {
+	display: inline-block;
+	margin: 0 auto 0 auto;
+	height: 62px;
+}
+
+#header .inner ul {
+	list-style-type: none;
+}
+
+#header .mozi {
+	float: left;
+}
+
+.inner a img {
+	display: block;
+	transition: opacity 0.1s ease;
+}
+
+.inner a:hover img {
+	opacity: 0;
+}
+
+.inner .topp {
+	display: inline-block;
+	background-image: url(img/topb2.png);
+}
+
+.inner .zikop {
+	display: inline-block;
+	background-image: url(img/zikob2.png);
+}
+
+.inner .likep {
+	display: inline-block;
+	background-image: url(img/likeb2.png);
+}
+
+.inner .flip {
+	display: inline-block;
+	background-image: url(img/flib2.png);
+}
+
+/*///////////////////////////////////
+mainImage*/
+
+#main {
+	position: relative;/*ロゴの位置を指定するためのプロパティで親要素に入れるもの*/
+	//background-image: url(img/bg.gif);
+	background-position: center;
+	//background-repeat: no-repeat;
+	background-size: cover;
+	height: 1200px;
+	
+	
+}
+
+.pppppp {
+	//text-align: center;
+	//width: 100%; 
+	//position: absolute;
+	padding-top: 60px;
+	
+	
+}
+
+.box {
+	background-image: url(img/bg.gif);
+	background-position: center;
+	//background-repeat: no-repeat;
+	//background-size: cover;
+	height: 1200px;
+	text-align: center;
+
+	
+	
+}
+
+
+.box {
+	position: relative;
+}
+.box figure2 {
+	position: absolute;
+	top: 50%;
+	margin-left: 120px;
+	margin-top: -270px;
+	transform: translate(-50%,-50%);
+	font-size: 20px;
+	//color: #4F5099;
+}
+.box figure3 {
+	position: absolute;
+	top: 50%;
+	margin-left: 120px;
+	margin-top: -270px;
+	transform: translate(-50%,-50%);
+	font-size: 20px;
+	//color: #4F5099;
+}
+
+
+.box figure4 {
+	position: absolute;
+	top: 50%;
+	margin-left: 120px;
+	margin-top: -270px;
+	transform: translate(-50%,-50%);
+	font-size: 20px;
+	//color: #4F5099;
+	text-align: center;
+}
+.mainImg {
+	position: absolute;/*ロゴの位置を指定するためのプロパティで子要素に入れるもの「relative」とセットで使う*/
+	top: 50%;/*topから50％の位置（縦中央あたり）*/
+	left: 50%;/*leftから50％の位置（横中央あたり）*/
+	transform: translate(-50%, -50%);/*説明すると長くなるので、一言で言うと「丁度良くなる」*/
+	margin: 0 auto 0 auto;
+	//width: 80%;
+	text-align: center;
+	width: 2600px;
+
+	
+}
+
+.mainImg figure {
+	//margin-left;30px;
+	text-align: center;
+	psition: center;
+	//width: 100%;
+}
+
+/*///////////////////////////////////
+icon*/
+
+
+
+//.icon {
+	position: absolute;/*ロゴの位置を指定するためのプロパティで子要素に入れるもの「relative」とセットで使う*/
+	top: 70%;/*topから50％の位置（縦中央あたり）*/
+	left: 50%;/*leftから50％の位置（横中央あたり）*/
+	transform: translate(-50%, -50%);/*説明すると長くなるので、一言で言うと「丁度良くなる」*/
+	//display: flex;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto 0 auto;
+	margin-top: 200px;
+}
+
+//.icon p {
+	text-align: center;
+}
+
+//.icon2 {
+	margin: 270px;
+}
+
+//.icon2 p {
+	color: #ffffff;
+}
+
+.icon img {
+	//width: 100%;
+	transition: 0.3s;
+}
+
+.icon img:hover {
+	transform: scale(1.2);
+}
+
+
+.box figure2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -0px;
+	margin-left: -450px;
+	padding: 0;
+	font-size: 18px;
+	text-align: center;
+}
+.box figure3 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: 140px;
+	margin-left: 0px;
+	padding: 0;
+	font-size: 18px;
+	text-align: center;
+	color: #ffffff;
+}
+.box figure4 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: 0px;
+	margin-left: 450px;
+	padding: 0;
+	font-size: 18px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/*///////////////////////////////////
+footer*/
+
+#footer {
+	background-color: #0066bc;
+	margin: 0;
+	padding: 10px 0 10px 0;
+}
+
+#footer .inner {
+	//background-color: #0066bc;
+	width: 980px;
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+
+#footer .inner p.copyright {
+	clear: both;
+	color: #ffffff;
+	font-size: 120%;
+}
